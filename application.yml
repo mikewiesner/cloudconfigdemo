@@ -1,1 +1,7 @@
-test: demo
+spring:
+    profiles: cloud
+test: demo-cloud
+spring:
+    profiles: local
+test: demo-local
+    
